@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="OfficeAgent 个人办公助手的支持、隐私声明和使用条款。">
+  <title>OfficeAgent — 支持与使用说明</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <a class="brand" href="./">OfficeAgent <span>by kinfey</span></a>
+    <nav aria-label="主要导航">
+      <a href="./" aria-current="page">支持</a>
+      <a href="privacy.html">隐私声明</a>
+      <a href="terms.html">使用条款</a>
+    </nav>
+  </header>
+  <main>
+    <p class="eyebrow">个人办公同事 · 人工确认优先</p>
+    <h1>把协调交给助手，<br>把决定留给自己。</h1>
+    <p class="lead">OfficeAgent 帮助获授权的经理整理邮件、拟写回复、查看日历并协调会议。它以自己的 Microsoft 365 身份工作，不索取或借用你的密码。</p>
+    <aside>可用性取决于组织的部署、许可证、管理员审批、实例雇用和邮箱委派。本网站上线不代表助手已经获得 Microsoft 365 访问权限。</aside>
+    <section>
+      <h2>它可以做什么</h2>
+      <ul>
+        <li>读取已明确委派的邮箱内容，整理摘要和行动项，在聊天中拟稿。</li>
+        <li>查询已授权的日历和忙闲，准备会议创建、修改或取消提案。</li>
+        <li>仅在配置经理的同租户 Teams 私聊中处理请求。</li>
+      </ul>
+      <p>邮件以 OfficeAgent 自己的邮箱发送；日历操作指向配置的委派邮箱。它不默认拥有任何人的邮箱或团队数据。</p>
+    </section>
+    <section>
+      <h2>发送之前，你来确认</h2>
+      <p>发送邮件和变更会议前，助手先展示操作内容。检查收件人、正文、日期、时区和目标日历后，才能在原会话中单独回复 <code>确认 &lt;确认码&gt;</code>。</p>
+      <p>确认码在 10 分钟后失效，只能使用一次。回复 <code>取消 &lt;确认码&gt;</code> 可放弃待审操作；新的普通消息也会使旧确认码失效。如果结果未知，助手不会自动重试，请先到 Outlook 核实。</p>
+    </section>
+    <section>
+      <h2>范围与限制</h2>
+      <p>不支持自动后台发送、删除邮件、附件处理或整组周期性会议修改。邮件和日历查询有数量及时间范围限制；部分结果不等于完整搜索，缺失忙闲信息不代表对方有空。</p>
+      <p>AI 可能误解请求或生成不准确内容。涉及敏感信息或重要决定时，请检查原始来源与实际操作结果。</p>
+    </section>
+    <section id="support">
+      <h2>获取支持</h2>
+      <p>发布者与维护者：<strong>kinfey</strong>。一般问题可通过 <a href="https://github.com/kinfey/officeagent-site/issues">GitHub Issues</a> 提交。</p>
+      <p>公开问题中只提供已脱敏的现象、操作步骤和错误代码。不要上传邮件正文、聊天记录、参会人信息、账户或租户标识、访问令牌、密钥及内部服务地址。</p>
+      <p>组织授权、数据删除、许可证或安全事件，请通过你所在组织的内部渠道联系管理员；不要在公开 Issues 中提交敏感材料。需要停用时，请管理员禁用实例或蓝图并撤销委派。</p>
+    </section>
+  </main>
+  <footer>
+    <p>OfficeAgent 由 kinfey 提供，并非 Microsoft 官方产品。Microsoft 及相关产品名称属于其各自权利人。</p>
+    <p>更新日期：2026-11-25 · <a href="privacy.html">隐私声明</a> · <a href="terms.html">使用条款</a></p>
+  </footer>
+</body>
+</html>
